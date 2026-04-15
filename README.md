@@ -1,6 +1,6 @@
 # My Swiggy Sample Clone 👋
 
-**🚀 Live Demo: <a href="https://sriharshitha-konkathi.github.io/Swiggy-Clone/" target="_blank" rel="noopener noreferrer">View Project on GitHub Pages</a>**
+**🚀 Live Demo: [View Project on GitHub Pages](https://sriharshitha-konkathi.github.io/Swiggy-Clone/)**
 
 Hi there! This is a sample Swiggy clone I built to practice and showcase my frontend development skills.
 
