@@ -4,7 +4,7 @@
   "description": "This is harshitha react creating",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /Amazon-Clone/",
+    "build": "parcel build index.html --public-url /Swiggy-Clone/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "jest",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/sriharshitha-konkathi/harshitha-react/issues"
   },
-  "homepage": "https://sriharshitha-konkathi.github.io/Amazon-Clone/",
+  "homepage": "https://sriharshitha-konkathi.github.io/Swiggy-Clone/",
   "devDependencies": {
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.26.9",

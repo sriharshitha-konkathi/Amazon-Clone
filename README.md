@@ -1,6 +1,6 @@
 # My Amazon Sample Clone 👋
 
-**🚀 Live Demo: <a href="https://sriharshitha-konkathi.github.io/Amazon-Clone/" target="_blank" rel="noopener noreferrer">View Project on GitHub Pages</a>**
+**🚀 Live Demo: <a href="https://sriharshitha-konkathi.github.io/Swiggy-Clone/" target="_blank" rel="noopener noreferrer">View Project on GitHub Pages</a>**
 
 Hi there! This is a sample Amazon clone I built to practice and showcase my frontend development skills.
 
