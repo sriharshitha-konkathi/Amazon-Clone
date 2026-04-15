@@ -1,7 +1,7 @@
 import React, { StrictMode, lazy, Suspense, useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import Body from "./components/Body";
-import Header from "./components/header";
+import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
