@@ -1,5 +1,7 @@
 # My Amazon Sample Clone 👋
 
+**🚀 Live Demo: [View Project on GitHub Pages](https://sriharshitha-konkathi.github.io/Amazon-Clone/)**
+
 Hi there! This is a sample Amazon clone I built to practice and showcase my frontend development skills.
 
 ## 🛠️ What's inside?
