@@ -6,7 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createHashRouter, RouterProvider, Outlet } from "react-router-dom";
 import Grocery from "./components/Grocery";
 import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux";
@@ -44,7 +44,7 @@ const AppLayout = () => {
   );
 };
 
-const appRouter = createBrowserRouter([
+const appRouter = createHashRouter([
   {
     path: "/",
     element: <AppLayout />,
@@ -84,9 +84,7 @@ const appRouter = createBrowserRouter([
       },
     ],
   },
-], {
-  basename: window.location.hostname.includes("github.io") ? "/Amazon-Clone" : "/",
-});
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
