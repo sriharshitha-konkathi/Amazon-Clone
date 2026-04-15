@@ -1,9 +1,11 @@
 import { useContext } from "react";
 import { CDN_URL } from "../utils/constants";
 import UserContext from "../utils/userContext";
+import React from "react";
 
 const Rescard = (props) => {
   const { resData } = props;
+  // console.log(resData);
   const { loggedInUser } = useContext(UserContext);
 
   const { cloudinaryImageId, name, cuisines, avgRating, costForTwo } =
@@ -11,7 +13,10 @@ const Rescard = (props) => {
   const { deliveryTime } = resData.info.sla;
 
   return (
-    <div className="rescard rounded-lg shadow-md p-5 m-5 w-[360px] h-[450px] transition hover:bg-gray-300 bg-gray-200">
+    <div
+      data-testid="Rescard"
+      className=" rounded-lg shadow-md p-5 m-5 w-[360px] h-[450px] transition hover:bg-gray-300 bg-gray-200"
+    >
       <img
         className=" reslogo  rounded-md w-full h-52 object-cover  "
         src={CDN_URL + cloudinaryImageId}

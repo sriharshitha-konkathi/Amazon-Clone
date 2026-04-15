@@ -4,6 +4,7 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/userContext";
+import React from "react";
 
 const Body = () => {
   const { loggedInUser, setUserName } = useContext(UserContext);
@@ -57,6 +58,7 @@ const Body = () => {
         <div className="search flex items-center gap-2 p-4 m-4">
           <input
             type="text"
+            data-testid="searchInput"
             className="search-box  p-3   border-2"
             value={searchText}
             onChange={(e) => {
@@ -80,13 +82,13 @@ const Body = () => {
           className="filter-btn  border-2 px-4 py-3 rounded text-white bg-blue-500 hover:bg-blue-600"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
-              (res) => res.info.avgRating > 4.2
+              (res) => res.info.avgRating > 4.4
             );
-            setListOfRestaurant(filteredList);
+            setFilteredRestaurant(filteredList);
             console.log("cliked");
           }}
         >
-          TOP RATED RESTATURANTS
+          TOP RATED RESTAURANTS
         </button>
         <div className=" flex items-center gap-2 px-4 py-2  ">
           <label className="font-semibold">UserName : </label>
