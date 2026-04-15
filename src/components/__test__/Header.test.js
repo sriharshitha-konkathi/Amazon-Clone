@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 import { fireEvent, render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import Header from "../header";
+import Header from "../Header";
 import appStore from "../../utils/appStore";
 import { BrowserRouter } from "react-router-dom";
 
